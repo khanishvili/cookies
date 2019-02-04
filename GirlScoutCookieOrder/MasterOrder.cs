@@ -5,15 +5,18 @@ using System.Text;
 
 namespace GirlScoutCookieOrder
 {
-    class MasterOrder
+  public   class MasterOrder
     {
-        List<CookieOrder> orders = new List<CookieOrder>();
-      
+       public  List<CookieOrder> orders = new List<CookieOrder>();
+        public MasterOrder()
+        {
+
+        }
         public void AddOrder(CookieOrder theOrder)
         {
             orders.Add(theOrder);
         }
-        public int GetTotalBoxes()
+        public int GetTotalBoxes()//done. It is in menu
         {
             int numberofboxes=0;
             for(int i = 0; i < orders.Count; i++)
@@ -21,13 +24,13 @@ namespace GirlScoutCookieOrder
                 numberofboxes += orders[i].NumBoxes;
             }
             return numberofboxes;
-        } //done. It is in menu
+        } 
         public void RemoveVariety(string name) //works
         {
             orders.RemoveAll(x => x.Variety == name);
-
+             
         }
-        public int GetVarietyBoxes(string variety)
+        public int GetVarietyBoxes(string variety) //works 
         {
             int returnvalue=0;
             for (int i = 0; i < orders.Count; i++)//1
@@ -42,10 +45,11 @@ namespace GirlScoutCookieOrder
         }
         public void ShowOrder() //done.It is in menu
         {
+            Console.WriteLine("\t\t\t=====Curent====");
             //Variety: Tagalongs Boxes: 1
             for (int i = 0; i < orders.Count; i++)
-            {
-                Console.WriteLine("Variety: {0}  Boxes: {1}",
+            { 
+                Console.WriteLine("\t\t\tVariety: {0}  Boxes: {1}",
                     orders[i].Variety, 
                     orders[i].NumBoxes);
             }

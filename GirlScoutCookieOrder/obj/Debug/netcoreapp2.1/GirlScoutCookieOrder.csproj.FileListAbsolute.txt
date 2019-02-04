@@ -3,9 +3,9 @@ C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\bin\Debug\
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\bin\Debug\netcoreapp2.1\GirlScoutCookieOrder.runtimeconfig.dev.json
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\bin\Debug\netcoreapp2.1\GirlScoutCookieOrder.dll
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\bin\Debug\netcoreapp2.1\GirlScoutCookieOrder.pdb
-C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\obj\Debug\netcoreapp2.1\GirlScoutCookieOrder.csprojAssemblyReference.cache
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\obj\Debug\netcoreapp2.1\GirlScoutCookieOrder.csproj.CoreCompileInputs.cache
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\obj\Debug\netcoreapp2.1\GirlScoutCookieOrder.AssemblyInfoInputs.cache
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\obj\Debug\netcoreapp2.1\GirlScoutCookieOrder.AssemblyInfo.cs
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\obj\Debug\netcoreapp2.1\GirlScoutCookieOrder.dll
 C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\obj\Debug\netcoreapp2.1\GirlScoutCookieOrder.pdb
+C:\Users\khani\source\repos\GirlScoutCookieOrder\GirlScoutCookieOrder\obj\Debug\netcoreapp2.1\GirlScoutCookieOrder.csprojAssemblyReference.cache

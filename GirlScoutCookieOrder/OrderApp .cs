@@ -2,7 +2,7 @@
 
 namespace GirlScoutCookieOrder
 {
-    class Program
+    class OrderApp
     {
         static void Main(string[] args)
         {
@@ -18,6 +18,10 @@ namespace GirlScoutCookieOrder
             cart.AddOrder(new CookieOrder("cherry", 54));
             cart.AddOrder(new CookieOrder("cherry", 4));
             cart.AddOrder(new CookieOrder("fudge", 12));
+            Console.WriteLine("Press 1 to Print list of cookies you ordering");
+            Console.WriteLine("Press 2 to  print sum of all boxes in your cart");
+            Console.WriteLine("Press 3 to remove by variety and push enter");
+            Console.WriteLine("Press 4 to get amount of boxes by variety in your cart");
             do
             {
                 string nameofvariety;
@@ -28,10 +32,10 @@ namespace GirlScoutCookieOrder
                         cart.ShowOrder(); //first
                         break;
                     case "2": // second  .  Total boxes in cart
-                        Console.WriteLine("You are  ordering {0} boxes", cart.GetTotalBoxes());//
+                        Console.WriteLine("You are  ordering {0} boxes", cart.GetTotalBoxes());
                         break;
                     case "3":  //third. Remove Cockie from cart
-                        Console.WriteLine("Enter variety wish to be removed from your cart");
+                        Console.WriteLine("Enter variety wish to be removed from your cart  ");
                         nameofvariety = Console.ReadLine();
                         cart.RemoveVariety(nameofvariety.ToLower());
                         break;

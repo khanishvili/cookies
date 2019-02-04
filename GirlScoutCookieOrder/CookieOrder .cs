@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GirlScoutCookieOrder
 {
-    class CookieOrder
+   public  class CookieOrder
     {
        
         public string Variety { get; set; }
